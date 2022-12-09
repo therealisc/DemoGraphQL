@@ -1,0 +1,20 @@
+ {
+   "configurations": {
+     "attach": {
+       "adapter": "netcoredbg",
+       "configuration": {
+         "request": "attach",
+         "processId": "${pid}"
+       }
+     },
+     "launch": {
+       "adapter": "netcoredbg",
+       "configuration": {
+         "request": "launch",
+         "program": "C:/Users/ioan.scafa/source/repos/GraphQLDemo/GraphQLDemo.API/bin/Debug/net6.0/GraphQLDemo.API.dll",
+         "args": [],
+         "stopAtEntry": false
+       }
+     }
+   }
+ }
